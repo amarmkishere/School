@@ -1,0 +1,13 @@
+CREATE TABLE STUDENT (id int(20) NOT NULL AUTO_INCREMENT,first_name varchar(100) NOT NULL,
+	last_name varchar(100) NOT NULL,
+	middle_name varchar(100) DEFAULT NULL,
+	level varchar(10) NOT NULL,
+	sub1 varchar(20) NOT NULL,
+	sub2 varchar(20) NOT NULL,
+	sub3 varchar(20) NOT NULL,
+	sub4 varchar(20) NOT NULL,
+	mark_sub1 DOUBLE NOT NULL,
+	mark_sub2 DOUBLE NOT NULL,
+	mark_sub3 DOUBLE NOT NULL,
+	mark_sub4 DOUBLE NOT NULL,
+	PRIMARY KEY (id));
